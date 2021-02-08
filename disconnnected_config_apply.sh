@@ -1,11 +1,13 @@
 TOKEN="sha256~hewIlJBbbwxYmduOaODjgDa7DRWDWh18XRWDRTv8pg0"
 ASSISTED_SERVICE_IP="assisted-installer-ui.apps.mgmt-hub.e2e.bos.redhat.com"
 ASSISTED_SERVICE_PORT="80"
+CLUSTER_ID="${1}"
+
+## You don't need to modify these ones
 IGNITION_FOLDER='ignition_files'
 DISCV_IGN_TMPL_FILENAME='discovery-ignition_template.json'
 CLUST_IGN_TMPL_FILENAME='cluster-ignition_template.json'
 IMAGE_IGN_TMPL_FILENAME='image-ignition_template.json'
-CLUSTER_ID="${1}"
 
 if [[ -z ${CLUSTER_ID} ]];then
 	echo "I need a Cluster ID"
