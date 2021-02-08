@@ -1,0 +1,1 @@
+{"ssh_public_key":"$SSH_PUB","static_ips_config":[{"mac":"$MAC","ipv6_config":{"ip":"$IP","gateway":"$GW","mask":"$MASK","dns":"$DNS"}}],"image_type":"$MODE"}
