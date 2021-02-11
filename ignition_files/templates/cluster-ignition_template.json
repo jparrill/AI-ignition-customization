@@ -1,1 +1,1 @@
-{"http_proxy": "$HTTP_PROXY", "https_proxy": "$HTTPS_PROXY", "ssh_public_key": "$SSH_PUB"}
+{"http_proxy": "$HTTP_PROXY", "https_proxy": "$HTTPS_PROXY", "ssh_public_key": "$SSH_PUB", "api_vip": "${API_VIP}", "ingress_vip": "${INGRESS_VIP}"}
